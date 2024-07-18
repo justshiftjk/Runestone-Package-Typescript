@@ -1,10 +1,10 @@
 # Runestone toolbox Typescript
----
+
 Runestone Etch, Mint, Transfer, Recursive Rune, Airdrop, Encipher, Decipher
 
 
 ## Prerequisites
----
+
 Before running the script, ensure you have the following dependencies installed:
 
 - `bitcoinjs-lib`
@@ -21,7 +21,7 @@ npm install bitcoinjs-lib ecpair @bitcoinerlab/secp256k1 axios runelib
 ```
 
 ## Configuration
----
+
 Ensure you have a `.env` file in your project root with the following variables:
 
 ```plaintext
@@ -101,7 +101,7 @@ This script enables the minting of Runes using Taproot addresses on the Bitcoin 
 - **tapTweakHash(pubKey: Buffer, h: Buffer | undefined)**: Computes the Taproot tweak hash.
 - **toXOnly(pubkey: Buffer)**: Converts a public key to X-only format.
 - **tweakSigner(signer: BTCSigner, opts: any)**: Tweaks the signer for Taproot key tweaking.
-- 
+
 # Recursive Rune Minting Script with Taproot Inscription
 
 This script allows you to mint recursive Runes on the Bitcoin testnet using Taproot addresses. The script uses `bitcoinjs-lib`, `ecpair`, and `runelib` libraries to create, sign, and broadcast Bitcoin transactions containing Runes.
@@ -188,3 +188,9 @@ The script will output logs at various stages:
 - Adjust the fee and other parameters as needed.
 
 ---
+
+# Contact
+If you have any questions or want more customized app for specific use cases, please feel free to contact me to below contacts.
+
+- E-Mail: adamglab0731.pl@gmail.com
+- Telegram: [@bettyjk_0915](https://t.me/bettyjk_0915)
